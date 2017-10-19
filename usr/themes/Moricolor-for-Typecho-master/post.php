@@ -4,7 +4,7 @@
 <div id="main" class="container">
     <div id="main-post" role="main" style="display: none;">
         <article class="post" style="padding-top: 20px;">
-            <h2 style="font-weight: normal;"><?php $this->title() ?></h2>
+            <h3 style="font-weight: normal;"><?php $this->title() ?></h3>
             <div class="text-right">
         <?php if($GLOBALS['style_TextBar']=='1'): ?>
             <div class="text-bar">

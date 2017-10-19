@@ -6,7 +6,8 @@
 $GLOBALS['tools_Pages_if'] = 'on'; //是否开启自定义链接
 $GLOBALS['tools_Pages'] = array(
 	'Archive' => 'http://blog.1988de.com/index.php/archive.html',
-	'Github' => 'https://github.com/kaka987'
+	'Github' => 'https://github.com/kaka987',
+	'Abount' => 'http://blog.1988de.com/index.php/archives/96/'
 	);
 
 //底部小工具
