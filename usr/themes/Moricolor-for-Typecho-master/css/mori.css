@@ -260,9 +260,9 @@ html::-webkit-scrollbar-thumb:hover{background-color:#ddd;}
 }
 .post-info a:nth-child(1n) {
   color: #fff;
-  border: 1px solid #f8bbd0;
+  border: 1px solid #000000;
   border-radius: 15px;
-  background: #f8bbd0;
+  background: #050606;
 }
 .post-info a {
   font-size: 13px;
@@ -276,8 +276,8 @@ html::-webkit-scrollbar-thumb:hover{background-color:#ddd;}
 }
 .post-info a:hover {
   border: 1px solid #fff;
-  color:#f8bbd0;
-  background:#fff;
+  color: #000000;
+  background: #d2d2d2;
 }
 .post-info a::before {
   content: '# ';

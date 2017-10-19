@@ -3,22 +3,21 @@
 // 'off'或留空 为关闭
 
 //Pages -换页导航中间的三条杠！
-$GLOBALS['tools_Pages_if'] = 'off'; //是否开启自定义链接
+$GLOBALS['tools_Pages_if'] = 'on'; //是否开启自定义链接
 $GLOBALS['tools_Pages'] = array(
-	'{your_title}' => '{your_url}', 
-	'Moricolor' => 'https://github.com/txperl/Moricolor-for-Typecho'
+	'Github' => 'https://github.com/kaka987'
 	);
 
 //底部小工具
 $GLOBALS['bottomTools'] = 'on';	//总
 $GLOBALS['bottomTools_hitokoto'] = 'on'; //一言
 $GLOBALS['bottomTools_category'] = 'on'; //分类
-$GLOBALS['bottomTools_tag'] = 'off'; //标签
-$GLOBALS['bottomTools_page'] = 'off'; //页面
+$GLOBALS['bottomTools_tag'] = 'on'; //标签
+$GLOBALS['bottomTools_page'] = 'on'; //页面
 $GLOBALS['bottomTools_search'] = 'on'; //搜索
 
 //主页
-$GLOBALS['index_QuickPreview'] = '1'; //每页默认显示 X 个快速预览
+$GLOBALS['index_QuickPreview'] = '2'; //每页默认显示 X 个快速预览
 $GLOBALS['index_QuickPreview_Img'] = 'off'; //文章预览是否显示图片
 
 //样式

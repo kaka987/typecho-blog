@@ -33,13 +33,6 @@
       <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="<?php $this->options->themeUrl('./css/highlight/monokai-sublime.css'); ?>">
-<style>
-.hljs  li{
-    margin-left: 30px;
-    list-style-type: decimal-leading-zero;
-}
-</style>
-
   </head>
   <body>
   <header>
