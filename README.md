@@ -1,4 +1,4 @@
 # typecho-blog
 typecho-blog
 
-[img](./snap-blog.png)
+![img](./blog-snap.png)
