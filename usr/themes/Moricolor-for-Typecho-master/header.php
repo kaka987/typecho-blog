@@ -51,7 +51,7 @@
 
   </header>
   <section>
-      <div class="container menu" id="main">
+      <div class="container menu">
           <ul>
               <?php if ($GLOBALS['tools_Pages_if'] == 'on'){ ?>
               <?php foreach($GLOBALS['tools_Pages'] as $index=>$page) { ?>

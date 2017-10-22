@@ -54,7 +54,7 @@ function parseContnet($content){ //解析文章 暂只是添加h3,h4锚点
 	for ($i=0; $i < $num; $i++) { 
 		$content=str_replace($title[0][$i],$ftitle[$i],$content);
 	}
-	$content = str_replace(array('<?php',"\n",'<code','</code>'), array('&lt;?php','<br/>','<pre><code','</code></pre>'), $content);
+	$content = str_replace(array('<?php',"\n",'<code','</code>',"\t",' '), array('&lt;?php','<br/>','<pre><code','</code></pre>','&nbsp;&nbsp;&nbsp;&nbsp;','&nbsp;'), $content);
 	echo($content);
 }
 function post_tor($content){

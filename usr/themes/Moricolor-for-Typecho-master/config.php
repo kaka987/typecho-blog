@@ -5,7 +5,7 @@
 //Pages -换页导航中间的三条杠！
 $GLOBALS['tools_Pages_if'] = 'on'; //是否开启自定义链接
 $GLOBALS['tools_Pages'] = array(
-	'Home' => '/index.php/archive.html',
+	'Home' => '/',
 	'Archive' => '/index.php/archive.html',
 	'Github' => 'https://github.com/kaka987',
 	'About' => '/index.php/archives/96/'
