@@ -50,3 +50,19 @@
   <?php endif; ?>
 
   </header>
+  <section>
+      <div class="container menu" id="main">
+          <ul>
+              <?php if ($GLOBALS['tools_Pages_if'] == 'on'){ ?>
+              <?php foreach($GLOBALS['tools_Pages'] as $index=>$page) { ?>
+              <li><a target="_blank" href="<?php echo $page;?>"><?php echo $index;?></a> </li>
+              <?php } ?>
+              <?php } else { ?>
+                  <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
+                  <?php while ($pages->next()): ?>
+                      <li><a href="<?php $pages->permalink(); ?>"><?php $pages->title(); ?></a></li>
+                  <?php endwhile; ?>
+              <?php } ?>
+          </ul>
+      </div>
+  </section>

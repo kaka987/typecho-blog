@@ -359,3 +359,18 @@ html::-webkit-scrollbar-thumb:hover{background-color:#ddd;}
   -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.04);
   box-shadow: 0 1px 4px rgba(0,0,0,.04);
 }
+.menu li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  padding-right:10px;
+}
+.menu ul {
+  margin-left: -40px;
+}
+.menu li a {
+  color: #000;
+}
+.menu li a:hover {
+  color: #d2d2d2;
+}
