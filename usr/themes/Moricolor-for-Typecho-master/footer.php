@@ -119,6 +119,13 @@ $(document).ready(function() {
     hljs.highlightBlock(block);
   });
 });
+go = function(index){
+    var top = $(index).offset().top;
+    $('html, body').animate({
+        scrollTop: top
+    }, 500)
+};
 </script>
+<div class="returnTop" style="display: block;" onclick="go('header')">top<i class=""></i></div>
 <?php $this->footer(); ?>
 </body></html>
