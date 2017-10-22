@@ -35,7 +35,7 @@
                 <?php img_postthumb($this->cid,1); ?>
             <!-- end -->
             <div class="post-content" itemprop="articleBody">
-                <?php parseContnet($this->content()); ?>
+                <?php parseContnet($this->text); ?>
             </div>
         </article>
     </div>
